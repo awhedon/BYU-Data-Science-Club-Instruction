@@ -3,4 +3,4 @@ This repo contains various lessons on data science topics. The master branch con
 
 Branches:
 1. Master
-2. Sci-Kit Learn Tutorial
+2. Sci-Kit Learn Tutorials

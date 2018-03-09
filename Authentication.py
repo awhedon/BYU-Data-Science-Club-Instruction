@@ -17,8 +17,10 @@ go_to_sign_in.click()
 
 email = br.find_element_by_id('session_key-login')
 password = br.find_element_by_id("session_password-login")
-email.send_keys("alexander.whedon@gmail.com")
-password.send_keys("1Ajwguitar!")
+# Input your email here:
+email.send_keys("YourEmail@gmail.com")
+# Input your password here:
+password.send_keys("YourPassword")
 
 login_attempt = br.find_element_by_xpath("//*[@type='submit']")
 login_attempt.submit()
